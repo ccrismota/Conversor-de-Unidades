@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Conversor de Medias</string>
+    <string name="valor_de_conversao">Qual valor você quer converter?</string>
+
+    <string name="Selecione_a_unidade">Selecione a Unidade:</string>
+    <string name="converter">Converter</string>
+    <string name="calcular">Calcular</string>
+    <string name="adicione_um_valor_a_ser_convervetido">Adicione um Valor a ser Convervetido</string>
+    <string name="adicione_um_valor">Adicione um valor para converter</string>
+    <string name="Adicione_um_valor">Adicione um valor para converter</string>
+</resources>

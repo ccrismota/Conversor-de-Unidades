@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cordefundo"
+    android:elevation="2dp"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnPeso"
+        android:layout_width="160dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#00FFFFFF"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/peso"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDados" />
+
+    <ImageButton
+        android:id="@+id/btnComprimento"
+        android:layout_width="160dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:background="#00FFFFFF"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/comprimento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnDados"
+        android:layout_width="160dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="#03FFFFFF"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/dados"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnTemperatura"
+        android:layout_width="160dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="#00EFF4F6"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/temperatura"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnComprimento" />
+
+    <ImageButton
+        android:id="@+id/btnTempo"
+        android:layout_width="160dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="#00EFF4F6"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/temppo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTemperatura" />
+
+    <ImageButton
+        android:id="@+id/btnVelocidade"
+        android:layout_width="156dp"
+        android:layout_height="154dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="#00EFF4F6"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/velocidade"
+        app:layout_constraintStart_toEndOf="@+id/btnTempo"
+        app:layout_constraintTop_toBottomOf="@+id/btnPeso" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
